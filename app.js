@@ -13,7 +13,7 @@ app.use(cookieParser());
 var registrants = {};
 
 app.get('/', function (req, res) {
-  res.send('backend api is REALLY up')
+  res.send('backend api is REALLY up.')
 });
 
 app.post('/signup', function (req, res) {
